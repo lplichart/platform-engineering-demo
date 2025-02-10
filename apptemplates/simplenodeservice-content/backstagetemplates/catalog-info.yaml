@@ -14,12 +14,12 @@ metadata:
     - url: https://github.com/lplichart/platform-engineering-demo.git
       title: Github Repo
       icon: github
-    - url: https://shiny-pancake-4gjqx4rwp6vf79xj-80.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+    - url: https://shiny-pancake-4gjqx4rwp6vf79xj-80.app.github.dev/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
       title: "Browse Application"
       icon: subject
     - title: View in ArgoCD
       icon: catalog
-      url: https://shiny-pancake-4gjqx4rwp6vf79xj-30100.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+      url: https://shiny-pancake-4gjqx4rwp6vf79xj-30100.app.github.dev/applications/argocd/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
     - title: View in Dynatrace
       icon: catalog
       url: https://hvj14600.sprint.apps.dynatracelabs.com
